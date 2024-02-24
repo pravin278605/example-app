@@ -30,6 +30,7 @@ class StudentController extends Controller
             'course'=>'required|max:191',
             'email'=>'required|email|max:191',
             'phone'=>'required|max:10|min:10',
+            'sate'=>'required|max:10|min:10',
 
         ]);
 
