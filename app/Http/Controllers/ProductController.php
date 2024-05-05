@@ -11,8 +11,8 @@ class ProductController extends Controller
     {
   
         $product = Product::create([
-            'name' => 'Platinum 1',
-            'price' => 10
+            'name' => 'Platinum 2',
+            'price' =13
         ]);
   
         dd($product);

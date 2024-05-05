@@ -12,7 +12,7 @@ use App\Http\Controllers\ProductController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//Route::get('product', [ProductController::class, 'index']);
-Route::get('/index', function () {
-    return view('welcome');
-});
+Route::get('product', [ProductController::class, 'index']);
+// Route::get('/index', function () {
+//     return view('welcome');
+// });
