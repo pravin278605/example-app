@@ -15,7 +15,6 @@ class StudentController extends Controller
         	return $students;
         });
 
-
         return response()->json([
             'status'=> 200,
             'students'=>$students,
@@ -29,7 +28,7 @@ class StudentController extends Controller
             'name'=>'required|max:191',
             'course'=>'required|max:191',
             'email'=>'required|email|max:191',
-            'phone'=>'required|max:10|min:10',
+           
         ]);
 
         if($validator->fails())
